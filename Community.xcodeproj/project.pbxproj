@@ -15,6 +15,8 @@
 		964A9F4C1BEF4198007CE0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A9F4A1BEF4198007CE0E9 /* LaunchScreen.storyboard */; };
 		964A9F571BEF4198007CE0E9 /* CommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A9F561BEF4198007CE0E9 /* CommunityTests.m */; };
 		964A9F621BEF4198007CE0E9 /* CommunityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A9F611BEF4198007CE0E9 /* CommunityUITests.m */; };
+		964A9F711BEF45EC007CE0E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 964A9F6F1BEF45EC007CE0E9 /* Default-568h@2x.png */; };
+		964A9F721BEF45EC007CE0E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 964A9F701BEF45EC007CE0E9 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		964A9F5D1BEF4198007CE0E9 /* CommunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A9F611BEF4198007CE0E9 /* CommunityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityUITests.m; sourceTree = "<group>"; };
 		964A9F631BEF4198007CE0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964A9F6F1BEF45EC007CE0E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		964A9F701BEF45EC007CE0E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,18 @@
 				964A9F401BEF4198007CE0E9 /* AppDelegate.m */,
 				964A9F421BEF4198007CE0E9 /* ViewController.h */,
 				964A9F431BEF4198007CE0E9 /* ViewController.m */,
+				964A9F761BEF46B0007CE0E9 /* Main */,
+				964A9F731BEF46B0007CE0E9 /* BaseView */,
+				964A9F7A1BEF46B0007CE0E9 /* PublicView */,
+				964A9F791BEF46B0007CE0E9 /* PublicModel */,
+				964A9F751BEF46B0007CE0E9 /* Macro */,
+				964A9FB11BEF46B0007CE0E9 /* Vendors */,
+				964A9F7E1BEF46B0007CE0E9 /* Utils */,
+				964A9F7B1BEF46B0007CE0E9 /* Resource */,
+				964A9F741BEF46B0007CE0E9 /* Frameworks */,
 				964A9F451BEF4198007CE0E9 /* Main.storyboard */,
 				964A9F481BEF4198007CE0E9 /* Assets.xcassets */,
 				964A9F4A1BEF4198007CE0E9 /* LaunchScreen.storyboard */,
-				964A9F4D1BEF4198007CE0E9 /* Info.plist */,
 				964A9F3C1BEF4198007CE0E9 /* Supporting Files */,
 			);
 			path = Community;
@@ -117,6 +129,9 @@
 		964A9F3C1BEF4198007CE0E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				964A9F4D1BEF4198007CE0E9 /* Info.plist */,
+				964A9F6F1BEF45EC007CE0E9 /* Default-568h@2x.png */,
+				964A9F701BEF45EC007CE0E9 /* Default.png */,
 				964A9F3D1BEF4198007CE0E9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +153,247 @@
 				964A9F631BEF4198007CE0E9 /* Info.plist */,
 			);
 			path = CommunityUITests;
+			sourceTree = "<group>";
+		};
+		964A9F731BEF46B0007CE0E9 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		964A9F741BEF46B0007CE0E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		964A9F751BEF46B0007CE0E9 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		964A9F761BEF46B0007CE0E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				964A9F771BEF46B0007CE0E9 /* TodayTopic */,
+				964A9FCD1BEF60CE007CE0E9 /* EveryoneTopic */,
+				964A9FCF1BEF60CF007CE0E9 /* Message */,
+				964A9FD11BEF60CF007CE0E9 /* Mine */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		964A9F771BEF46B0007CE0E9 /* TodayTopic */ = {
+			isa = PBXGroup;
+			children = (
+				964A9F781BEF46B0007CE0E9 /* TodayTopic */,
+			);
+			name = TodayTopic;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		964A9F781BEF46B0007CE0E9 /* TodayTopic */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FCA1BEF4754007CE0E9 /* Controller */,
+				964A9FCB1BEF4770007CE0E9 /* View */,
+				964A9FCC1BEF4788007CE0E9 /* Model */,
+			);
+			name = TodayTopic;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		964A9F791BEF46B0007CE0E9 /* PublicModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicModel;
+			sourceTree = "<group>";
+		};
+		964A9F7A1BEF46B0007CE0E9 /* PublicView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicView;
+			sourceTree = "<group>";
+		};
+		964A9F7B1BEF46B0007CE0E9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				964A9F7C1BEF46B0007CE0E9 /* Images */,
+				964A9F7D1BEF46B0007CE0E9 /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		964A9F7C1BEF46B0007CE0E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		964A9F7D1BEF46B0007CE0E9 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		964A9F7E1BEF46B0007CE0E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		964A9FB11BEF46B0007CE0E9 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		964A9FCA1BEF4754007CE0E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		964A9FCB1BEF4770007CE0E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		964A9FCC1BEF4788007CE0E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		964A9FCD1BEF60CE007CE0E9 /* EveryoneTopic */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FCE1BEF60CF007CE0E9 /* EveryoneTopic */,
+			);
+			path = EveryoneTopic;
+			sourceTree = "<group>";
+		};
+		964A9FCE1BEF60CF007CE0E9 /* EveryoneTopic */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FD31BEF60ED007CE0E9 /* Controller */,
+				964A9FD41BEF60FC007CE0E9 /* View */,
+				964A9FD51BEF6103007CE0E9 /* Model */,
+			);
+			path = EveryoneTopic;
+			sourceTree = "<group>";
+		};
+		964A9FCF1BEF60CF007CE0E9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FD01BEF60CF007CE0E9 /* Message */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		964A9FD01BEF60CF007CE0E9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FD81BEF6135007CE0E9 /* Controller */,
+				964A9FD71BEF6125007CE0E9 /* View */,
+				964A9FD61BEF6113007CE0E9 /* Model */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		964A9FD11BEF60CF007CE0E9 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FD21BEF60CF007CE0E9 /* Mine */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		964A9FD21BEF60CF007CE0E9 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				964A9FDB1BEF614E007CE0E9 /* Controller */,
+				964A9FDA1BEF6147007CE0E9 /* View */,
+				964A9FD91BEF613E007CE0E9 /* Model */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		964A9FD31BEF60ED007CE0E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		964A9FD41BEF60FC007CE0E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		964A9FD51BEF6103007CE0E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		964A9FD61BEF6113007CE0E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		964A9FD71BEF6125007CE0E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		964A9FD81BEF6135007CE0E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		964A9FD91BEF613E007CE0E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		964A9FDA1BEF6147007CE0E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		964A9FDB1BEF614E007CE0E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +463,7 @@
 				TargetAttributes = {
 					964A9F381BEF4198007CE0E9 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UXFL2567A5;
 					};
 					964A9F511BEF4198007CE0E9 = {
 						CreatedOnToolsVersion = 7.1;
@@ -244,8 +501,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				964A9F4C1BEF4198007CE0E9 /* LaunchScreen.storyboard in Resources */,
+				964A9F711BEF45EC007CE0E9 /* Default-568h@2x.png in Resources */,
 				964A9F491BEF4198007CE0E9 /* Assets.xcassets in Resources */,
 				964A9F471BEF4198007CE0E9 /* Main.storyboard in Resources */,
+				964A9F721BEF45EC007CE0E9 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +672,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Community/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wansons.Community;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +685,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Community/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wansons.Community;
 				PRODUCT_NAME = "$(TARGET_NAME)";
